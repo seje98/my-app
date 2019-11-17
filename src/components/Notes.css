@@ -1,0 +1,67 @@
+p {
+    margin: 0;
+}
+
+.Notes {
+  padding: 2px;
+  font-size: 1.6em;
+  margin: 2rem auto;
+  max-width: 30rem;
+}
+
+.Notes-create {
+  width: 100%;
+}
+
+.Notes-Create-Input {
+  width: 100%;
+  margin-bottom: 1rem;
+  height: 6rem;
+  resize: none;
+}
+
+.Notes-Note {
+  color: #292929;
+  background: #eef;
+  font-family: "Comic Sans MS";
+  position: relative;
+  padding: 1rem;
+  border: 1px dashed #999;
+  border-radius: 2px;
+  margin: 1rem;
+}
+
+.Notes-Create-Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Notes-Create-Button {
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  background: #306;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Notes-Create-Button_Reset {
+  background: #666;
+}
+
+.Notes-Note-Delete {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  background: #666;
+  color: #fff;
+  text-align: center;
+  line-height: 1.4rem;
+  border-radius: 50%;
+  font-size: 90%;
+  cursor: pointer;
+}
